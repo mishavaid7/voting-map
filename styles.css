@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:ital,wght@1,300&family=Libre+Bodoni&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:ital,wght@1,300&family=Libre+Bodoni&family=Open+Sans&family=Raleway:wght@500&family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#map {
+    width: 100%;
+    height: 400px;
+margin: 5em auto;
+}
+
+#map2 {
+    width: 100%;
+    height: 600px;
+    margin: 5em auto;
+}
+
+h2 {
+    letter-spacing: 1px;
+    text-transform: full-size-kana;
+    font-weight:500;
+    /* text-align: center; */
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 90px;
+    line-height: 1em;
+    
+
+}
+
+.error {
+    color: red;
+}
+h3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    /* text-align: center; */
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+
+}
+
+h4 {
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    font-weight:200;
+    /* text-align: center; */
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 40px;
+    line-height: 1em;
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    /* text-align: center; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+
+.text-container {
+    max-width: 90%; 
+    margin: 0 auto;
+    line-height: 65px;
+}
+
+.mapboxgl-ctrl-logo {
+    display: none !important;
+}
+
+.mapbox-improve-map {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
